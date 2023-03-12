@@ -192,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678655240590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sedenium Grid">
+      <created>1678655512417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678655512417</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Sedenium Grid">
+      <created>1678659323357</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678659323357</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
