@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: Google search functionality
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 4, Skipped: 0, Time elapsed: 101.513 s <<< FAILURE! - in Google search functionality
+Google search functionality.Search functionality result title verification #1  Time elapsed: 5.49 s  <<< FAILURE!
+org.junit.ComparisonFailure: Title is not as expected! expected:<apple - Google[ Search]> but was:<apple - Google['da Ara]>
+
+Google search functionality.Search functionality result title verification #2  Time elapsed: 5.343 s  <<< FAILURE!
+org.junit.ComparisonFailure: Title is not as expected! expected:<apple - Google[ Search]> but was:<apple - Google['da Ara]>
+
+Google search functionality.Data Driven Testing Format preparation  Time elapsed: 15.965 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='FLP8od']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AQEJKQE', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Ahmet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd8be275deb16941e180a6f20a4e59d5
+*** Element info: {Using=xpath, value=//a[@class='FLP8od']}
+
+Google search functionality.Search functionality in a Data Driven Testing Format #1  Time elapsed: 16.062 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='FLP8od']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AQEJKQE', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Ahmet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cdaab73178a1a7e921e128afdc8e3330
+*** Element info: {Using=xpath, value=//a[@class='FLP8od']}
+
+Google search functionality.Search functionality in a Data Driven Testing Format #2  Time elapsed: 5.553 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Washington[] DC> but was:<Washington[,] DC>
+
+Google search functionality.Search functionality in a Data Driven Testing Format #3  Time elapsed: 5.874 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<K[yi]v> but was:<K[ie]v>
+
+Google search functionality.Search functionality in a Data Driven Testing Format #4  Time elapsed: 15.737 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='FLP8od']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AQEJKQE', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Ahmet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1302706ed6defbbbd22b8d5d1b1b0c25
+*** Element info: {Using=xpath, value=//a[@class='FLP8od']}
+
+Google search functionality.Search functionality in a Data Driven Testing Format #5  Time elapsed: 5.496 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Lond[on]> but was:<Lond[ra]>
+
+Google search functionality.Search functionality in a Data Driven Testing Format #7  Time elapsed: 16.093 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='FLP8od']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AQEJKQE', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Ahmet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59157}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c89fdb49e55d51d18b99a74db19ae065
+*** Element info: {Using=xpath, value=//a[@class='FLP8od']}
+

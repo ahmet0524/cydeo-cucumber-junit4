@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Wikipedia search functionality and verifications
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.295 s <<< FAILURE! - in Wikipedia search functionality and verifications
+Wikipedia search functionality and verifications.Wikipedia Search Functionality Title Verification #6  Time elapsed: 4.591 s  <<< FAILURE!
+java.lang.AssertionError
+
