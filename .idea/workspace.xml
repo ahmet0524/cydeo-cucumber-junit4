@@ -162,7 +162,7 @@
       <workItem from="1678480579109" duration="6000" />
       <workItem from="1678635672051" duration="809000" />
       <workItem from="1678641427620" duration="89000" />
-      <workItem from="1678641545359" duration="1104000" />
+      <workItem from="1678641545359" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="Sedenium Grid">
       <created>1678652746863</created>
@@ -171,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678652746863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sedenium Grid">
+      <created>1678652946921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678652946921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sedenium Grid">
+      <created>1678653007673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678653007673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
