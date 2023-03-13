@@ -49,14 +49,14 @@ public class Driver {
                 switch statement will determine the case, and open the matching browser
             */
             switch (browserType){
-                case "chrome":
+                case "remote-chrome":
 
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver());
                     driverPool.get().manage().window().maximize();
                     driverPool.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                     break;
-                case "firefox":
+                case "remote-firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driverPool.set(new FirefoxDriver());
                     driverPool.get().manage().window().maximize();
